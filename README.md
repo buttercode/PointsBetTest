@@ -27,3 +27,14 @@ namespace PointsBetBackendOnlineCodeTest
     }
 }
 ```
+
+
+For standalone testing, I used the following Main entry point.
+```
+public static void Main(string[] args)
+{
+    string[] items = {"Apple", "Orange", "Kiwi"};
+    string result = ToCommaSeparatedList(items, "Fruit");
+    Console.WriteLine(result);
+}
+```
