@@ -1,3 +1,5 @@
+**Final solution is in the updated StringFormatter.cs file.**
+
 Refactored implementation to align with C# best practices:
 - Applied PascalCase to namespace.
 - Fixed typo on method name.
