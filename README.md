@@ -5,8 +5,8 @@ Refactored implementation to align with C# best practices:
 - Added null validation for items to prevent runtime exceptions.
 - Switched to string interpolation for improved readability.
 
-
-Note: If keeping the StringBuilder implementation is required, with only minor changes applied within the indicated code block, I would make the following changes
+ 
+Note: Final solution is on the updated StringFormatter.cs, however, if keeping the StringBuilder implementation is required, with only minor changes applied within the indicated code block, below is an alternative solution:
 ```
 using System.Text;
 using System.Linq;
